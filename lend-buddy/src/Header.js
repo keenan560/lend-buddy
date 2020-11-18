@@ -37,7 +37,7 @@ function Header() {
             </li>
             <li className="nav-item">
               <a className="nav-link mr-4" href="/team">
-                Team
+                Team <span>Buddy</span>
               </a>
             </li>
             <li className="nav-item">

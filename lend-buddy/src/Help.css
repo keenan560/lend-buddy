@@ -1,0 +1,57 @@
+.help {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.help__title {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 100px;
+}
+
+.help__container {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 500px;
+}
+
+.help__app {
+  border-right: lightgray solid 1px;
+  height: auto;
+  text-align: center;
+  padding: 20px;
+  flex: 0.5;
+}
+.help__app > h1 {
+  font-weight: bold;
+}
+
+.help__account {
+  height: auto;
+  text-align: center;
+  padding: 20px;
+  flex: 0.5;
+}
+
+.help__account > h1 {
+  font-weight: bold;
+}
+.help__account > img {
+  background-color: rgb(167, 143, 240);
+  border-radius: 50% 40% 30% 30%;
+}
+
+.help__app > img {
+  border-radius: 50% 40% 30% 30%;
+}
+
+img {
+  height: 300px;
+  margin-bottom: 10px;
+  object-fit: contain;
+}
+
+p {
+  color: gray;
+}

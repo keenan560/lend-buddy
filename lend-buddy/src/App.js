@@ -4,6 +4,7 @@ import Header from "./Header";
 import Home from "./Home";
 import About from "./About";
 import Team from "./Team";
+import Help from "./Help";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
@@ -16,7 +17,10 @@ function App() {
             <About />
           </Route>
           <Route path="/team">
-            <Team/>
+            <Team />
+          </Route>
+          <Route path="/help">
+            <Help />
           </Route>
           <Route path="/">
             <Home />

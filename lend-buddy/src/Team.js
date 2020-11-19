@@ -8,7 +8,7 @@ function Team() {
   const yves =
     "https://avatars.dicebear.com/api/avataaars/example.svg?options[top][]=shortHair&options[hairColor][]=black&options[skin][]=darkBrown&options[facialHair][]=majestic&options[facialHairColor][]=black&options[clothes][]=sweater&options[eyes][]=wink&options[clothesColor][]=pastel";
   const shashi =
-    " https://avatars.dicebear.com/api/avataaars/example.svg?options[top][]=turban&options[hairColor][]=black&options[skin][]=brown&options[facialHair][]=medium&options[facialHairColor][]=black&options[clothes][]=hoodie&options[eyes][]=default&options[clothesColor][]=red";
+    " https://avatars.dicebear.com/api/avataaars/example.svg?options[top][]=shortHair&options[hairColor][]=black&options[skin][]=brown&options[facialHair][]=medium&options[facialHairColor][]=red&options[clothes][]=hoodie&options[eyes][]=default&options[clothesColor][]=red&options[mouth][]=smile";
   return (
     <div className="team">
       <div className="team__founding">
@@ -45,22 +45,23 @@ function Team() {
       <div className="team__roster">
         <div className="team__rosterPerson">
           <img src={yves} />
-          <p className="shadow team__title animate__animated animate__fadeIn animate__slow">
-            Yves Beliard <br></br>Co-Founder
+          <p className="shadow team__title animate__animated animate__fadeInUp animate__faster">
+            Yves<br></br>Co-Founder<br></br>CEO
           </p>
         </div>
         <div className="team__rosterPerson">
           <img src={keenan} />
-          <p className="shadow team__title animate__animated animate__fadeIn animate__slow">
-            Keenan Mapp
+          <p className="shadow team__title animate__animated animate__fadeInUp animate__faster">
+            Keenan
             <br></br>
             Co-Founder
+            <br></br>CTO
           </p>
         </div>
         <div className="team__rosterPerson">
           <img src={shashi} />
-          <p className="shadow team__title animate__animated animate__fadeIn animate__slow">
-            Shashi Dammur <br></br> Co-Founder
+          <p className="shadow team__title animate__animated animate__fadeInUp animate__faster">
+            Shashi <br></br> Co-Founder<br></br>CFO
           </p>
         </div>
       </div>

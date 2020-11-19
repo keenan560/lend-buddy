@@ -53,7 +53,8 @@
 
 .team__rosterPerson > img {
   width: 210px;
-  height: auto;
+  height: 100%;
+  display: block;
 }
 
 .team__rosterPerson > p {
@@ -73,6 +74,14 @@
 .team__title {
   display: none;
 }
+
+.team__rosterPerson > img:hover {
+  background-color: palegoldenrod;
+  border-radius: 55% 75% 40% 60%;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  cursor: pointer;
+}
+
 .team__rosterPerson > img:hover + .team__title {
   display: inherit;
 }

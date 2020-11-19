@@ -42,7 +42,7 @@ function Home() {
             App Store
           </a>
           <a href="/" className="btn btn-dark p-2 text-white font-weight-bold">
-            <small className="">Download on the</small>
+            <small className="">Get it on</small>
             <br></br>
             <img id="google" src={google} />
             Google Play

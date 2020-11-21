@@ -3,7 +3,7 @@ import "./Help.css";
 
 function Help() {
   const accountPic =
-    "	https://avatars.dicebear.com/api/avataaars/example.svg?options[top][]=shortHair";
+    "https://avatars.dicebear.com/api/avataaars/example.svg?options[top][]=shortHair&options[hairColor][]=black";
 
   return (
     <div className="help">
@@ -19,12 +19,9 @@ function Help() {
           <h1>
             A<span>pp</span> Help
           </h1>
-          <p>
-            orem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
-          </p>
+          <p>orem Ipsum is simply dummy text industry.</p>
+          <p>orem Ipsum is simply dumm industry.</p>
+          <p>of the printing and typesetting industry.</p>
 
           <a
             className=" btn  btn-success text-white font-weight-bold p-3 mb-1"
@@ -38,13 +35,9 @@ function Help() {
           <h1>
             Bu<span>dd</span>y Account
           </h1>
-          <p>
-            orem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries,
-          </p>
+          <p>orem Ipsum is simply dummy text industry.</p>
+          <p>orem Ipsum is simply dumm industry.</p>
+          <p>of the printing and typesetting industry.</p>
           <a
             className=" btn  btn-success text-white font-weight-bold p-3 mb-1"
             href="/help"

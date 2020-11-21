@@ -1,0 +1,46 @@
+.join__container {
+  margin-top: 10px;
+  display: flex;
+  height: 900px;
+  margin-bottom: 0;
+}
+.join__form {
+  flex: 0.4;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#brand {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 26px;
+  text-decoration: none !important;
+  color: black !important;
+}
+.join__form > h1 {
+  font-weight: bold;
+  margin-top: 100px;
+}
+
+.join__form > button {
+  width: 100%;
+}
+.disabled {
+  background-color: gray !important;
+}
+
+input {
+  height: 50px !important;
+}
+
+.join__banner {
+  flex: 0.6;
+  height: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-image: url(https://cdn.pixabay.com/photo/2020/08/30/20/02/money-5530537_1280.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: rgb(68, 197, 229);
+  border-radius: 50% 20% 45% 30%;
+}

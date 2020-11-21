@@ -3,7 +3,7 @@ import "./Header.css";
 
 function Header() {
   return (
-    <div className="header animate__animated animate__fadeInDown animate__slow shadow">
+    <div className="header animate__animated animate__fadeIn shadow">
       <nav className="navbar navbar-expand-lg navbar-light p-3">
         <a className="navbar-brand font-weight-bold" href="/">
           lend<span id="dollar">$$</span>Buddy

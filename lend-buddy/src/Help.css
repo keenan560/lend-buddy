@@ -14,6 +14,10 @@
   align-items: center;
   justify-content: space-evenly;
   height: 500px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .help__app {
@@ -25,6 +29,7 @@
 }
 .help__app > h1 {
   font-weight: bold;
+  margin-bottom: 20px;
 }
 
 .help__account {
@@ -36,6 +41,7 @@
 
 .help__account > h1 {
   font-weight: bold;
+  margin-bottom: 20px;
 }
 .help__account > img {
   background-color: rgb(167, 143, 240);
@@ -48,10 +54,11 @@
 
 img {
   height: 300px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   object-fit: contain;
 }
 
 p {
   color: gray;
+  margin-bottom: 20px;
 }

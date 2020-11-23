@@ -37,10 +37,11 @@ input {
   height: auto;
   padding-left: 10px;
   padding-right: 10px;
-  background-image: url(https://cdn.pixabay.com/photo/2020/08/30/20/02/money-5530537_1280.png);
+  background-image: url(./invest.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
-  background-color: rgb(68, 197, 229);
+  background-color: rgb(158, 190, 173);
   border-radius: 50% 20% 45% 30%;
+  /* margin-right: 10px; */
 }

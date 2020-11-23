@@ -2,16 +2,13 @@ import React from "react";
 import "./Home.css";
 import AppleIcon from "@material-ui/icons/Apple";
 import google from "./google.png";
+import deal from "./deal.jpg";
 
 function Home() {
   return (
     <div className="home">
       <div className="home__banner animate__animated animate__fadeIn animate__slow">
-        <img
-          alt="banner"
-          src="https://miro.medium.com/max/4510/1*32w_PAiZXUs0pBFnfeH9iA.jpeg"
-          className="home__bannerImg shadow-lg"
-        />
+        <img alt="banner" src={deal} className="home__bannerImg shadow-lg" />
       </div>
       <div className="home__slogan">
         <h1 className="animate__animated animate__pulse">
@@ -21,10 +18,12 @@ function Home() {
           </span>{" "}
         </h1>
         <p>
-          orem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book.
+          Our community is strong and rapidly growing. A place where we help
+          meet your daily living expenses. As a Borrower with LendBuddy, say
+          goodbye to skyrocketing APRs and fees from payday lenders, flex loan
+          providers, and Bank Credit cards. As a Lender, earn more interest on
+          your money than with a tradtional savings account! Join the community
+          and spot a friend!
         </p>
         <a
           className="home__join btn btn-lg btn-success text-white font-weight-bold p-3 mb-1"

@@ -1,6 +1,8 @@
 import React from "react";
 import "./Team.css";
-
+import climb from "./climb.png";
+import david from "./david.svg";
+import team from "./team.jpg";
 function Team() {
   const keenan =
     "https://avatars.dicebear.com/api/avataaars/example.svg?options[top][]=eyepatch&options[hairColor][]=black&options[skin][]=darkBrown&options[facialHair][]=light&options[facialHairColor][]=black&options[clothes][]=blazer";
@@ -17,23 +19,17 @@ function Team() {
             Our S<span>to</span>ry
           </h1>
           <p>
-            Contrary to popular belief, Lorem Ipsum is not simply random text.
-            It has roots in a piece of classical Latin literature from 45 BC,
-            making it over 2000 years old. Richard McClintock, a Latin professor
-            at Hampden-Sydney College in Virginia, looked up one of the more
-            obscure Latin words, consectetur, from a Lorem Ipsum passage, and
-            going through the cites of the word in classical literature,
-            discovered the undoubtable source. Lorem Ipsum comes from sections
-            1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes
-            of Good and Evil) by Cicero, written in 45 BC.
+            Lendbuddy’s genesis came about while three friends were so fed up
+            with the financial system status quo. Rising APRs on credit card,
+            untrustworthy payday lenders, flex loan providers for borrowers.
+            While the big banks offer very little incentive in saving accounts.
+            They re-imagine building the next great financial oasis, in which
+            borrowers get fair treatment and lenders get fair incentive to grow
+            their capital.
           </p>
         </div>
         <div className="team__foundingImg">
-          <img
-            className="shadow"
-            src="https://us.123rf.com/450wm/andrewrybalko/andrewrybalko1804/andrewrybalko180400116/100021318-stock-vector-team-of-successful-businesspeople-conquering-mountain-market-top.jpg?ver=6"
-            alt="story"
-          />
+          <img className="shadow" src={team} alt="story" />
         </div>
       </div>
       <div className="team__rosterText">

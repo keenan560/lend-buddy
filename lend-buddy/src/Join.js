@@ -1,7 +1,7 @@
 import { lightBlue } from "@material-ui/core/colors";
 import React, { useState } from "react";
 import "./Join.css";
-
+import invest from "./invest.jpg";
 function Join() {
   const [input, setInput] = useState(null);
   return (
@@ -10,7 +10,7 @@ function Join() {
         <a id="brand" className="font-weight-bold" href="/">
           lend<span id="dollar">$$</span>Buddy
         </a>
-        <h1>
+        <h1 className="animate__animated animate__pulse">
           Join over <span>100,000+</span> members
         </h1>
         <p>Helping borrowers and lenders connect without the fat cats</p>

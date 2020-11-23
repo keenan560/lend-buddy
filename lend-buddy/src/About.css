@@ -35,7 +35,7 @@ span {
 .about__story {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: initial;
   margin-top: 100px;
   margin-left: 10px;
   margin-right: 10px;
@@ -56,12 +56,17 @@ span {
 
 .about__storyText {
   flex: 0.5;
+  margin-top: 240px !important;
 }
 
 .about__storyText > h1 {
   font-weight: bold;
+  margin-bottom: 10px;
 }
-
+.about__storyText > h3 {
+  font-size: 22px;
+  margin-top: 30px;
+}
 .about__solution {
   display: flex;
   justify-content: space-between;
@@ -81,7 +86,7 @@ span {
 
 .about__solutionImg {
   flex: 0.5;
-  height: 400px;
+  height: 700px;
   margin-right: 10px;
 }
 
@@ -89,4 +94,130 @@ span {
   height: auto;
   width: 100%;
   border-radius: 50%;
+  margin-bottom: auto;
+}
+
+/* media queries */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+  .about__mission {
+    display: initial;
+  }
+
+  .about__missionImg {
+    width: 100%;
+    padding: 5px;
+  }
+
+  .about__story {
+    display: initial;
+  }
+  .about__storyImg {
+    padding: 5px;
+  }
+
+  .about__solution {
+    display: flex;
+  }
+  .about__solutionImg {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+  .home {
+    display: initial;
+  }
+
+  .home__banner {
+    width: 100%;
+    margin-left: 0;
+    padding: 10px;
+    height: 300px !important;
+  }
+
+  .home__bannerImg {
+    width: 100%;
+  }
+
+  .home__slogan {
+    margin: initial;
+    padding: 10px;
+    width: 100%;
+  }
+
+  .home__join {
+    width: 100%;
+  }
+
+  .home__appLinks {
+    width: 100%;
+  }
+}
+
+/* iPad 1, 2, Mini and Air */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .home {
+    display: flex;
+  }
+
+  .home__banner {
+    width: 100%;
+    margin-left: 0;
+    padding: 10px;
+    height: 300px !important;
+  }
+
+  .home__bannerImg {
+    width: 100%;
+  }
+
+  .home__slogan {
+    margin: initial;
+    padding: 10px;
+    width: 100%;
+  }
+
+  .home__join {
+    width: 100%;
+  }
+
+  .home__appLinks {
+    width: 100%;
+  }
+}
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2) {
+  .home {
+    display: inherit;
+  }
+
+  .home__banner {
+    width: 70%;
+    margin-left: 0;
+    padding: 10px;
+    height: auto !important;
+    margin-bottom: 10px;
+  }
+
+  .home__bannerImg {
+    width: 100%;
+    height: auto;
+  }
+
+  .home__slogan {
+    margin-left: 400px;
+    padding: 10px;
+    width: 60%;
+  }
+
+  .home__join {
+    width: 100%;
+  }
+
+  .home__appLinks {
+    width: 100%;
+  }
 }

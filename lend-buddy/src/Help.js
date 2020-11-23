@@ -1,5 +1,6 @@
 import React from "react";
 import "./Help.css";
+import help from "./app-help.svg";
 
 function Help() {
   const accountPic =
@@ -12,10 +13,7 @@ function Help() {
       </h1>
       <div className="help__container">
         <div className="help__app">
-          <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp468Me2wglhcRqh7B67bEyUCbYET07_Xxeg&usqp=CAU"
-            className="shadow"
-          />
+          <img src={help} className="shadow" />
           <h1>
             A<span>pp</span> Help
           </h1>

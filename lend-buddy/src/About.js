@@ -15,7 +15,7 @@ function About() {
           <p>
             To seamlessly connect lenders with borrowers to help meet everyday
             living expenses while increasing lender's return on capital. With
-            lend$$buddy everyone wins.
+            LendBuddy everyone wins.
           </p>
         </div>
         <div className="about__missionImg">

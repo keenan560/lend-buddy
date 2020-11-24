@@ -7,6 +7,9 @@ function Header() {
       <nav className="navbar navbar-expand-lg navbar-light p-3">
         <a className="navbar-brand font-weight-bold" href="/">
           lend<span id="dollar">$$</span>Buddy
+          <small className="tagline">
+            <span> Spot a Friend</span>
+          </small>
         </a>
         <a
           id="join"

@@ -85,3 +85,182 @@
 .team__rosterPerson > img:hover + .team__title {
   display: inherit;
 }
+
+/* media queries */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+  .team__founding {
+    display: block;
+    margin-bottom: 10px;
+    height: auto;
+  }
+  .team__roster {
+    display: block;
+    margin-bottom: 400px !important;
+    height: 400px;
+  }
+  .team__rosterPerson > img {
+    width: 50%;
+    height: auto;
+    display: block;
+    /* padding: 10px; */
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .team__rosterText {
+    margin-top: 10px;
+    margin-bottom: 100px;
+    text-align: center;
+  }
+
+  .team__rosterPerson > p {
+    background-color: var(--lend-color);
+    color: white;
+    height: 100px;
+    padding: 10px;
+    width: 210px;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: center;
+    margin-top: 1px;
+    font-size: medium;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+  .team__founding {
+    display: block;
+    margin-bottom: 10px;
+    height: auto;
+  }
+  .team__roster {
+    display: block;
+    margin-bottom: 400px !important;
+    height: 400px;
+  }
+  .team__rosterPerson > img {
+    width: 50%;
+    height: auto;
+    display: block;
+    /* padding: 10px; */
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .team__rosterText {
+    margin-top: 10px;
+    margin-bottom: 100px;
+    text-align: center;
+  }
+
+  .team__rosterPerson > p {
+    background-color: var(--lend-color);
+    color: white;
+    height: 100px;
+    padding: 10px;
+    width: 210px;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: center;
+    margin-top: 1px;
+    font-size: medium;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+/* iPad 1, 2, Mini and Air */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .team__founding {
+    display: flex;
+    margin-bottom: 100px;
+    height: auto;
+  }
+  .team__roster {
+    display: block;
+    margin-bottom: 400px !important;
+    height: auto;
+    width: 100%;
+  }
+  .team__rosterPerson > img {
+    width: 210px;
+    height: auto;
+    display: block;
+    /* padding: 10px; */
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .team__rosterText {
+    margin-top: 10px;
+    margin-bottom: 100px;
+    text-align: center;
+  }
+
+  .team__rosterPerson > p {
+    background-color: var(--lend-color);
+    color: white;
+    height: 100px;
+    padding: 10px;
+    width: 210px;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: center;
+    margin-top: 1px;
+    font-size: medium;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2) {
+  .team__founding {
+    display: flex;
+    margin-bottom: 100px;
+    height: auto;
+  }
+  .team__roster {
+    display: block;
+    margin-bottom: 400px !important;
+    height: auto;
+    width: 100%;
+  }
+  .team__rosterPerson > img {
+    width: 210px;
+    height: auto;
+    display: block;
+    /* padding: 10px; */
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .team__rosterText {
+    margin-top: 10px;
+    margin-bottom: 100px;
+    text-align: center;
+  }
+
+  .team__rosterPerson > p {
+    background-color: var(--lend-color);
+    color: white;
+    height: 100px;
+    padding: 10px;
+    width: 210px;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: center;
+    margin-top: 1px;
+    font-size: medium;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}

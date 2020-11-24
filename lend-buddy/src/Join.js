@@ -4,11 +4,16 @@ import "./Join.css";
 import invest from "./invest.jpg";
 function Join() {
   const [input, setInput] = useState(null);
+
+  
   return (
     <div className="join__container">
       <form className="join__form">
         <a id="brand" className="font-weight-bold" href="/">
           lend<span id="dollar">$$</span>Buddy
+          <small className="tagline">
+            <span> Spot a Friend</span>
+          </small>
         </a>
         <h1 className="animate__animated animate__pulse">
           Join over <span>100,000+</span> members

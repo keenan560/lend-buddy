@@ -101,123 +101,127 @@ span {
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
   .about__mission {
-    display: initial;
+    display: block;
+    margin-bottom: 0;
   }
 
   .about__missionImg {
     width: 100%;
-    padding: 5px;
   }
 
   .about__story {
-    display: initial;
+    display: block;
   }
   .about__storyImg {
     padding: 5px;
   }
 
+  .about__storyText > h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
   .about__solution {
-    display: flex;
+    display: block;
   }
   .about__solutionImg {
     width: 100%;
+    height: auto;
   }
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
-  .home {
-    display: initial;
+  .about__mission {
+    display: block;
+    margin-bottom: 0;
   }
 
-  .home__banner {
-    width: 100%;
-    margin-left: 0;
-    padding: 10px;
-    height: 300px !important;
-  }
-
-  .home__bannerImg {
+  .about__missionImg {
     width: 100%;
   }
 
-  .home__slogan {
-    margin: initial;
-    padding: 10px;
-    width: 100%;
+  .about__story {
+    display: block;
+  }
+  .about__storyImg {
+    padding: 5px;
   }
 
-  .home__join {
-    width: 100%;
+  .about__storyText > h1 {
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
-  .home__appLinks {
+  .about__solution {
+    display: block;
+  }
+  .about__solutionImg {
     width: 100%;
+    height: auto;
   }
 }
 
 /* iPad 1, 2, Mini and Air */
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
-  .home {
-    display: flex;
+  .about__mission {
+    display: block;
+    margin-bottom: 20px;
   }
 
-  .home__banner {
+  .about__missionImg {
     width: 100%;
-    margin-left: 0;
-    padding: 10px;
-    height: 300px !important;
+    height: auto;
   }
 
-  .home__bannerImg {
+  .about__story {
+    display: block;
+  }
+  .about__storyImg {
     width: 100%;
+    height: auto;
   }
 
-  .home__slogan {
-    margin: initial;
-    padding: 10px;
-    width: 100%;
+  .about__storyText > h1 {
   }
 
-  .home__join {
-    width: 100%;
+  .about__solution {
+    display: block;
   }
-
-  .home__appLinks {
+  .about__solutionImg {
     width: 100%;
+    height: auto;
   }
 }
 
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2) {
-  .home {
-    display: inherit;
+  .about__mission {
+    display: block;
+    margin-bottom: 20px;
   }
 
-  .home__banner {
-    width: 70%;
-    margin-left: 0;
-    padding: 10px;
-    height: auto !important;
-    margin-bottom: 10px;
-  }
-
-  .home__bannerImg {
+  .about__missionImg {
     width: 100%;
     height: auto;
   }
 
-  .home__slogan {
-    margin-left: 400px;
-    padding: 10px;
-    width: 60%;
+  .about__story {
+    display: block;
+  }
+  .about__storyImg {
+    width: 100%;
+    height: auto;
   }
 
-  .home__join {
-    width: 100%;
+  .about__storyText > h1 {
   }
 
-  .home__appLinks {
+  .about__solution {
+    display: block;
+  }
+  .about__solutionImg {
     width: 100%;
+    height: auto;
   }
 }

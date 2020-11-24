@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap");
 
-
 #friend {
   color: rgb(39, 168, 69);
 }
@@ -77,27 +76,27 @@ small {
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
   .home {
-    display: initial;
+    display: block;
   }
 
   .home__banner {
-    width: 100%;
-    margin-left: 0;
+    display: block;
     padding: 10px;
-    height: 300px !important;
   }
 
   .home__bannerImg {
     width: 100%;
+    height: auto;
   }
 
   .home__slogan {
-    margin: initial;
+    margin: block;
     padding: 10px;
     width: 100%;
   }
 
   .home__join {
+    display: block;
     width: 100%;
   }
 
@@ -108,18 +107,22 @@ small {
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
   .home {
-    display: initial;
+    display: block;
+    padding: 5px;
   }
 
   .home__banner {
+    display: block;
     width: 100%;
-    margin-left: 0;
+    margin-left: inherit;
     padding: 10px;
     height: 300px !important;
+    margin-bottom: 20px;
   }
 
   .home__bannerImg {
     width: 100%;
+    height: auto;
   }
 
   .home__slogan {
@@ -141,18 +144,21 @@ small {
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
   .home {
-    display: flex;
+    display: block;
+    padding: 5px;
   }
 
   .home__banner {
+    display: block;
     width: 100%;
     margin-left: 0;
     padding: 10px;
-    height: 300px !important;
+    height: auto;
   }
 
   .home__bannerImg {
     width: 100%;
+    height: auto;
   }
 
   .home__slogan {
@@ -172,34 +178,4 @@ small {
 
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2) {
-  .home {
-    display: inherit;
-  }
-
-  .home__banner {
-    width: 70%;
-    margin-left: 0;
-    padding: 10px;
-    height: auto !important;
-    margin-bottom: 10px;
-  }
-
-  .home__bannerImg {
-    width: 100%;
-    height: auto;
-  }
-
-  .home__slogan {
-    margin-left: 400px;
-    padding: 10px;
-    width: 60%;
-  }
-
-  .home__join {
-    width: 100%;
-  }
-
-  .home__appLinks {
-    width: 100%;
-  }
 }

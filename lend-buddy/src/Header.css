@@ -13,6 +13,10 @@
   font-size: 26px;
 }
 
+.tagline {
+  font-size: 10px;
+}
+
 #dollar {
   color: var(--lend-color);
 }

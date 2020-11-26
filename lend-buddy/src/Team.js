@@ -36,7 +36,7 @@ function Team() {
         <h1>
           Team Bu<span>dd</span>y
         </h1>
-        <p>Meet the team that is chainging the way we do P2P lending.</p>
+        <p>Meet the team that is changing the way we do P2P lending.</p>
       </div>
       <div className="team__roster">
         <div className="team__rosterPerson">

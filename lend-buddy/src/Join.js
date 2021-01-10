@@ -2,7 +2,9 @@ import { lightBlue } from "@material-ui/core/colors";
 import React, { useState } from "react";
 import "./Join.css";
 import invest from "./invest.jpg";
-import { auth } from "./firebase";
+import { useHistory } from "react-router-dom";
+import database, { auth } from "./firebase";
+
 function Join() {
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
@@ -10,26 +12,39 @@ function Join() {
   const [password, setPassword] = useState("");
   const [mobile, setMobile] = useState("");
 
+  let history = useHistory();
+
   const addUser = (event) => {
     event.preventDefault();
 
-    alert("Feature not available yet.");
-    // auth
-    //   .createUserWithEmailAndPassword(email, password)
-    //   .then((authUser) => {
-    //     return authUser.user.updateProfile({
-    //       displayName: email,
-    //       firstName: firstName,
-    //       lastName: lastName,
-    //       mobile: mobile,
-    //     });
-    //   })
-    //   .catch((error) => alert(error.message));
-    // setFirstName("");
-    // setLastName("");
-    // setEmail("");
-    // setPassword("");
-    // setMobile("");
+    // alert("Feature not available yet.");
+    auth
+      .createUserWithEmailAndPassword(email, password)
+      .then((authUser) => {
+        database
+          .collection("users")
+          .add({
+            id: authUser.user.uid,
+            email: authUser.user.email,
+            firstName: firstName,
+            lastName: lastName,
+            mobile: mobile,
+          })
+          .then(
+            (newUser) =>
+              alert(
+                "Thank you for joining! To continue pleaase download the mobile app."
+              ),
+            history.push("/")
+          )
+          .catch((error) => alert(error.message));
+      })
+      .catch((error) => alert(error.message));
+    setFirstName("");
+    setLastName("");
+    setEmail("");
+    setPassword("");
+    setMobile("");
   };
 
   return (

@@ -5,12 +5,14 @@ import david from "./david.svg";
 import team from "./team.jpg";
 function Team() {
   const keenan =
-    "https://avatars.dicebear.com/api/avataaars/example.svg?options[top][]=eyepatch&options[hairColor][]=black&options[skin][]=darkBrown&options[facialHair][]=light&options[facialHairColor][]=black&options[clothes][]=blazer";
+    "https://avatars.dicebear.com/api/avataaars/example.svg?options[top][]=eyepatch&options[hairColor][]=black&options[skin][]=darkBrown&options[facialHairChance][]=80&options[facialHairColor][]=black&options[clothes][]=blazer&options[clothesColor][]=black&options[mouth][]=twinkle";
 
   const yves =
-    "https://avatars.dicebear.com/api/avataaars/example.svg?options[top][]=shortHair&options[hairColor][]=black&options[skin][]=darkBrown&options[facialHair][]=majestic&options[facialHairColor][]=black&options[clothes][]=sweater&options[eyes][]=wink&options[clothesColor][]=pastel";
+    "https://avatars.dicebear.com/api/avataaars/example.svg?options[topChance][]=1&options[hairColor][]=black&options[skin][]=darkBrown&options[facialHair][]=majestic&options[facialHairColor][]=black&options[clothes][]=shirt&options[eyes][]=default&options[clothesColor][]=blue&options[hatColor][]=black&options[mouth][]=smile";
+
+
   const shashi =
-    " https://avatars.dicebear.com/api/avataaars/example.svg?options[top][]=shortHair&options[hairColor][]=black&options[skin][]=brown&options[facialHair][]=medium&options[facialHairColor][]=red&options[clothes][]=hoodie&options[eyes][]=default&options[clothesColor][]=red&options[mouth][]=smile";
+    "https://avatars.dicebear.com/api/avataaars/example.svg?options[top][]=hat&options[hairColor][]=black&options[skin][]=brown&options[facialHair][]=medium&options[facialHairColor][]=red&options[clothes][]=sweater&options[eyes][]=happy&options[clothesColor][]=red&options[mouth][]=smile&options[accessoriesChance][]=93";
   return (
     <div className="team">
       <div className="team__founding">

@@ -4,7 +4,7 @@ import help from "./app-help.svg";
 
 function Help() {
   const accountPic =
-    "https://avatars.dicebear.com/api/avataaars/example.svg?options[top][]=shortHair&options[hairColor][]=black";
+    "https://avatars.dicebear.com/api/avataaars/example.svg?top[]=shortHair";
 
   return (
     <div className="help">

@@ -56,12 +56,12 @@ function Team() {
             <br></br>CTO
           </p>
         </div>
-        <div className="team__rosterPerson">
+        {/* <div className="team__rosterPerson">
           <img src={shashi} />
           <p className="shadow team__title animate__animated animate__fadeInUp animate__faster">
             Shashi <br></br> Co-Founder<br></br>CFO
           </p>
-        </div>
+        </div> */}
       </div>
     </div>
   );

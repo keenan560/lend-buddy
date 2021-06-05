@@ -29,6 +29,9 @@ function Join() {
             firstName: firstName,
             lastName: lastName,
             mobile: mobile,
+            totalDebt: 0,
+            totalLent: 0,
+            active: false,
           })
           .then(
             (newUser) =>
@@ -110,7 +113,7 @@ function Join() {
           <button
             type="submit"
             className="btn btn-lg btn-success text-white font-weight-bold p-3 mb-1"
-            onClick={addUser}
+            onClick={() => alert("Application still under development.")}
           >
             Join
           </button>

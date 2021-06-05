@@ -33,14 +33,19 @@ function Home() {
         </a>
         <div className="home__appLinks">
           <a
-            href="/"
+            href="#"
             className="btn btn-dark p-2 mr-1 text-white font-weight-bold"
+            onClick={() => alert("Application is under development")}
           >
             <small className="">Download on the</small>
             <br></br> <AppleIcon fontSize="large" />
             App Store
           </a>
-          <a href="/" className="btn btn-dark p-2 text-white font-weight-bold">
+          <a
+            href="#"
+            className="btn btn-dark p-2 text-white font-weight-bold"
+            onClick={() => alert("Application is under development")}
+          >
             <small className="">Get it on</small>
             <br></br>
             <img id="google" src={google} />
